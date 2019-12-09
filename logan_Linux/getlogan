@@ -1,0 +1,16 @@
+
+echo gehe nach /linux/drivers/char ...
+cd /linux/drivers/char
+cp la_hl.c la_hl.old
+cp la_ll.c la_ll.old
+tar xvf /dev/fd0 la_hl.c la_ll.c 
+
+echo gehe nach /linux/include/linux ...
+cd /linux/include/linux
+cp la.h la.old
+cp la_def.h la_def.old
+tar xvf /dev/fd0 la.h la_def.h
+
+echo gehe nach /linux ... und fertig !
+cd /linux
+echo

@@ -1,0 +1,20 @@
+echo gehe nach /linux/drivers/char ...
+cd /linux/drivers/char
+tar cvf /dev/fd0 la_hl.c la_ll.c mem.c Makefile
+touch dummy~
+rm *~
+echo
+echo gehe nach /linux/include/linux ...
+cd /linux/include/linux
+tar uvf /dev/fd0 la.h la_def.h major.h
+touch dummy~
+rm *~
+echo
+echo gehe nach /linux ...
+cd /linux
+tar uvf /dev/fd0 config.in safelogan getlogan lprlogan
+touch dummy~
+rm *~
+echo
+tar tvf /dev/fd0
+
