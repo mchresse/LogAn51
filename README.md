@@ -10,3 +10,10 @@ A sample board implementation for PC-AT bus connection.
 - Data-Channel IN: 16 Bit
 - Trigger: positiv + negativ
 - PC-Connector: ISA Port-Control
+
+Detailed description and schema charts can bei found here:
+https://github.com/mchresse/LogAn51/blob/master/Logan51.pdf
+
+best regards
+
+Randolph Esser
