@@ -11,7 +11,7 @@ A sample board implementation for PC-AT bus connection.
 - Trigger: positiv + negativ
 - PC-Connector: ISA Port-Control
 
-Detailed description and schema charts can bei found here:
+Detailed description and schemas can be found here:
 https://github.com/mchresse/LogAn51/blob/master/Logan51.pdf
 
 best regards
